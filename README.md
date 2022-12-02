@@ -1,2 +1,1 @@
-# DegenSweeper
-This is DegenSweeper Project.
+# Degen Sweepers
