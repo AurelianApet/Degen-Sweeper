@@ -11,7 +11,6 @@ const connection = new anchor.web3.Connection(rpcHost);
 
 export default function useWalletBalance() {
   const [balance, setBalance] = useContext(BalanceContext);
-  // const [balance, setBalance] = useState(0)
   return [balance, setBalance]
 }
 

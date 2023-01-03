@@ -128,7 +128,6 @@ const Staking = () => {
       <Modal
         show={show}
         onHide={handleClose}
-        // backdrop="static"
         keyboard={false}
         aria-labelledby="contained-modal-title-vcenter"
         centered
