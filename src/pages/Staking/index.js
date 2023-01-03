@@ -40,10 +40,7 @@ const Staking = () => {
       var amountsOwed = JSON.parse(amount)
       amountsOwed.map(async (val) => {
         if(val[0].toLowerCase() === wallet.publicKey.toString().toLowerCase()) {
-          // if(!await getRewardStatus(wallet)) {
             setExtraReward(val[1])
-            // handleShow()
-          // }
         }
       })
     }
